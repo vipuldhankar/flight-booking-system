@@ -1,0 +1,14 @@
+Requried Platforms 
+1)  IDE software for running java project like NetBeans, IntelliJ or Eclipse (For reference i used NetBeans) 
+2)  For setting the database use My SQL WorkBench or you can also use XAMPP for running My SQl
+
+
+Instructions for running the project
+1) Extract the project folder
+2) Open the project in your IDE
+3) For setting the database in your system open the Database foler inside the project folder and import all the SQL table files (present inside the Database folder) in the mysql workbench
+4) download the mysql connector for adding the mysql database to the project (add the mysql connector in the libraries folder of the project inside the IDE)
+5) In the file (Login.java, addcustomer.java , addflight2.java, searchcustomer.java,ticket.java,usercreation.java ) inside the line (con =          DriverManager.getConnection("jdbc:mysql://localhost/airline","root","")  in place of root and blank space write your sql username and password
+6) By default in Netbean (I have used the NetBeans for this project) there is no option for adding the calendar for that download the JCalendar from the internet for the interface page
+7) Run the Login.java file 
+8) username - ajay456 password - ajc9n9dpa
